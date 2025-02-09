@@ -1,0 +1,26 @@
+📂 personal-finance-manager
+ ├── 📂 backend/                   # .NET 8 Microservices
+ │   ├── 📂 ApiGateway/            # Ocelot API Gateway
+ │   ├── 📂 AuthService/           # Identity, JWT, Google Auth
+ │   ├── 📂 ExpenseService/        # Expense CRUD, categories
+ │   ├── 📂 BudgetService/         # Budget & goal tracking
+ │   ├── 📂 ReportService/         # Analytics & PDF Reports
+ │   ├── 📂 NotificationService/   # Email & push notifications
+ │   ├── 📂 SyncService/           # Google Keep & bank sync
+ │   ├── 📂 Shared/                # Common libraries (DTOs, utils)
+ │   ├── 📄 docker-compose.yml     # Multi-container setup
+ │   ├── 📄 .gitignore
+ │   ├── 📄 README.md
+ │
+ ├── 📂 frontend/                  # React 18 with TypeScript
+ │   ├── 📂 user-portal/           # User Dashboard
+ │   ├── 📂 admin-portal/          # Admin Panel
+ │   ├── 📄 package.json
+ │   ├── 📄 README.md
+ │
+ ├── 📂 deployment/                # Deployment scripts
+ │   ├── 📄 railway.json           # Railway deployment config
+ │   ├── 📄 vercel.json            # Vercel deployment config
+ │
+ ├── 📄 README.md                  # Project Overview
+ ├── 📄 LICENSE                    # Open-source MIT License

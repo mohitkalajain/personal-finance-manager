@@ -1,0 +1,19 @@
+# Ignore .NET build and temp files
+bin/
+obj/
+*.log
+*.lock
+*.cache
+*.tmp
+
+# Ignore Docker files that shouldn't be committed
+**/docker-compose.override.yml
+**/docker-compose.prod.yml
+
+# Ignore environment files
+.env
+secrets.json
+
+# Ignore compiled frontend files
+frontend/node_modules/
+frontend/build/
